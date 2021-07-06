@@ -39,6 +39,7 @@ const CreatorsApp = ({ pageProps, Component }) => {
   }
 
   if (pageProps.statusCode) {
+    //页面状态码不对，就异常组件
     Component = Error
   }
 
